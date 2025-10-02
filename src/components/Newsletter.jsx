@@ -1,31 +1,4 @@
-// import { ArrowUpRight } from 'lucide-react';
-// const Newsletter = ()=>{
-//   return(
-//     <div className="w-[80%] border-8 border-black bg-purple-700 flex justify-center text-center mx-auto mt-36 rounded-3xl h-[320px]">
-//       <div className="mt-10 w-1/2">
-//         <p className="text-white text-4xl font-bold text-start mb-10">Stay updated on our latest workshops & events with our newsletter</p>
-//         <div class="flex items-center justify-between bg-purple-700 text-white p-1 border-b border-white w-[400px]">
-
-//           <input 
-//             type="email" 
-//             placeholder="Enter your email" 
-//             class="bg-transparent outline-none placeholder-white w-full text-2xl"
-//           />
-//           <ArrowUpRight size={36} />
-//         </div>
-
-//       </div>
-//       <div className="flex justify-end">
-//         <img src=".././images/newsletter.png" alt="" />
-//       </div>
-//     </div>
-//   )
-// }
-// export default Newsletter;
-
-
 import { ArrowUpRight } from "lucide-react"; // or your icon lib
-
 export default function Newsletter() {
   return (
     <div className="w-full px-4 md:w-4/5 md:mx-auto border-4 md:border-8 border-black bg-purple-700 flex flex-col md:flex-row items-center md:items-start text-white mt-8 md:mt-36 rounded-3xl md:h-[320px]">
