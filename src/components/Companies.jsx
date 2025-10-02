@@ -1,13 +1,13 @@
 const Companies = () => {
   return (
-    <div className="bg-gray-50 py-20 overflow-hidden">
+    <div className="bg-gray-50 py-5 overflow-hidden">
       <h2 className="text-center text-3xl font-bold mb-8">
         Companies <span className="text-pink-600">associated</span> with us
       </h2>
 
       {/* Scrolling wrapper */}
-      <div className="relative mt-16 w-full overflow-hidden">
-        <div className="flex animate-scroll space-x-12">
+      <div className="relative w-full overflow-hidden">
+        <div className="flex animate-scroll space-x-12 ">
           {/* Repeat your logos */}
           <img src="././images/logo/download (1).png" className="h-16 object-contain" alt="Birla" />
           <img src="././images/logo/download (2).png" className="h-16 object-contain" alt="Schneider" />

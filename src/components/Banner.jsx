@@ -27,7 +27,7 @@ const Banner = () => {
   };
 
   return (
-    <div className="relative mt-12 w-full max-w-7xl mx-auto overflow-hidden rounded-lg shadow-lg">
+    <div className="relative my-16 w-full max-w-7xl mx-auto overflow-hidden rounded-lg shadow-lg">
       {/* Slides */}
       <div
         className="flex transition-transform duration-700 ease-in-out"
