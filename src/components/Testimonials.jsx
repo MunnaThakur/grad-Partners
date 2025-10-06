@@ -8,7 +8,7 @@ const Testimonials = () => {
           Read what our talented community members are saying about us
         </p>
       </div>
-      <div className="w-4/5 mx-auto bg-gray-100 h-[53vh] p-4 rounded-lg mr-12 sm:flex-col">
+      <div className="w-4/5 mx-auto bg-gray-100 h-[53vh] p-4 rounded-lg mr-12 flex-col sm:flex-col">
         <div className="pt-15">
           <Quote className="text-pink-600 transform rotate-180 ml-28 w-24 h-16 " />
           <p className="text-gray-600 text-base ml-36 text-justify mr-6 mt-3 leading-none">
